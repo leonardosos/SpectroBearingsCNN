@@ -1,10 +1,12 @@
 # SpectroBearingsCNN
 SpectroVibeNet is a convolutional neural network (CNN) designed for classifying vibration-induced spectrograms of damaged bearings, developed as a part of an engineering thesis to aid in predictive maintenance.
 
-Data Transformation in Preprocessing: Vibration signal data from the CWRU Bearing Data Center was converted from MATLAB .mat files into more versatile .csv files for processing.
+*Preprocessing* (Preprocessing file): Transformed the vibration signal data sourced from the CWRU Bearing Data Center by converting .mat files from MATLAB to more flexible .csv formats for subsequent processing steps.
+![1png](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/6d23d759-d866-46e9-b502-d74700b86490)
 
-Spectrogram Generation in Image_processing: Employed Fourier Transform to create spectrograms images from the vibration data, providing a representation of the frequency spectrum over time.
+*Spectrogram Creation* (Image_processing file): Fourier Transforms were applied to the vibration data to generate spectrogram images, encapsulating the time-evolving frequency spectrum.
+![2](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/043ce02c-e33c-4fbb-b80b-30e2cb956000)
 
-Create and train a CNN in Neural_Network: Suddivise a training dataset into a 70-15-15 percent, utilizing '0 load' condition, and train from scratch a CNN neural network.
+*CNN Development and Training* (Neural_Network file): The training dataset was partitioned in a 70-15-15 split, focusing on the '0 load' condition. A custom CNN was then architected and trained from the ground up.
 
-Model Evaluation in Test_model: The trained CNN was tested against the test set.
+*CNN Testing* (Test_model file): We conducted an evaluation of the CNN's performance by testing it on a set of data separate from what was used during training.
