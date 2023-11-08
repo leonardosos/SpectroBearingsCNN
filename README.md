@@ -5,7 +5,7 @@ SpectroVibeNet is a convolutional neural network (CNN) designed for classifying 
 
 
 **Preprocessing** (Preprocessing file): Transformed the vibration signal data sourced from the CWRU Bearing Data Center by converting .mat files from MATLAB to more flexible .csv formats for subsequent processing steps.
-![1png](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/6d23d759-d866-46e9-b502-d74700b86490)
+<img src="[https://your-image-url.type](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/6d23d759-d866-46e9-b502-d74700b86490)" width="50" 
 
 **Spectrogram Creation** (Image_processing file): Fourier Transforms were applied to the vibration data to generate spectrogram images, encapsulating the time-evolving frequency spectrum.
 ![2](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/043ce02c-e33c-4fbb-b80b-30e2cb956000)
