@@ -13,3 +13,4 @@ SpectroVibeNet is a convolutional neural network (CNN) designed for classifying 
 **CNN Development and Training** (Neural_Network file): The training dataset was partitioned in a 70-15-15 split, focusing on the '0 load' condition. A custom CNN was then architected and trained from the ground up.
 
 **CNN Testing** (Test_model file): We conducted an evaluation of the CNN's performance by testing it on a set of data separate from what was used during training.
+![3](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/83bed177-e23b-4eb7-afb1-82967c8680f2)
