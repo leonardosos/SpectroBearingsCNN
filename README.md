@@ -1,6 +1,6 @@
 # SpectroBearingsCNN
 ***Project Overview***
-SpectroVibeNet is a convolutional neural network (CNN) designed for classifying vibration-induced spectrograms of damaged bearings, developed as a part of an engineering thesis to aid in predictive maintenance.
+SpectroBearingsCNN is a convolutional neural network (CNN) designed for classifying vibration-induced spectrograms of damaged bearings, developed as a part of an engineering thesis to aid in predictive maintenance.
 
 **Preprocessing** (Preprocessing file): Transformed the vibration signal data sourced from the CWRU Bearing Data Center by converting .mat files from MATLAB to more flexible .csv formats for subsequent processing steps.
 ![1png](https://github.com/leonardosos/SpectroBearingsCNN/assets/106916676/60280860-f43d-43dd-8d58-6c5a622f9c50)
